@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background-color: #343a40;
+    color: white;
+}
+
+.skills img,
+.projects img {
+    max-width: 100px;
+}
+
+.projects .card {
+    transition: transform 0.2s;
+}
+
+.projects .card:hover {
+    transform: scale(1.05);
+}
